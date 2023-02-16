@@ -10,7 +10,7 @@ class BackgroundImage extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/images/dapsmebackground.jpg'),
+          image: AssetImage('assets/images/bg.jpg'),
           fit: BoxFit.cover,
         ),
       ),
